@@ -1,0 +1,412 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+.google-font-1 {
+    font-family: "Rowdies", sans-serif;
+    font-style: normal;
+}
+/* Google font Ended */
+
+/* Header Style Started */
+.header{
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    z-index: 1000;
+}
+.menu-holder{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(75, 75, 75);
+}
+.max-width{
+    width: 95%;
+}
+.logo img{
+    width: 100px;
+    cursor: pointer;
+}
+.nav{
+    display: block;
+    width: 70%;
+    font-size: 13px;
+}
+.nav .nav-link{
+    background-color: rgba(69, 69, 69, 0.7);
+}
+.nav .nav-link a{
+    margin: 0 2px;
+    padding: 5px 15px;
+    transition: 1.2s;
+}
+.nav .nav-link a:hover{
+    background-color: rgb(103, 103, 103);
+}
+.menu-btn{
+    display: none;
+}
+
+/* Header Style Ended */
+
+
+/* Home Style Started */
+
+.home{
+    height: 1400px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 1 !important;
+}
+.home-title{
+    margin-top: 80px;
+}
+.home-text{
+    font-weight: 400;
+}
+
+
+/* Phone Images in Home Page Start */
+.phone-flex{
+    position: relative;
+    max-width: 650px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    z-index: 10;
+}
+.phone-flex .phone-1{
+    height: 100%;
+}
+.phone-flex .phone-2{
+    height: 100%;
+}
+.phone-flex .phone-3{
+    height: 100%;
+}
+
+
+/* Phones in Home Page Ended */
+
+
+
+/* Globe in Home Page started */
+
+.globe{
+    max-width: 800px;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    z-index: 5;
+    top: -150px;
+}
+.globe .globe-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    object-fit: cover;
+}
+.globe .globe-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    object-fit: cover;
+}
+.globe .globe-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    object-fit: cover;
+}
+.globe .globe-4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    object-fit: cover;
+}
+.globe .globe-5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    object-fit: cover;
+}
+.globe .globe-6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    object-fit: cover;
+}
+.globe-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: opacity 3s;
+    opacity: 0;
+    object-fit: cover;
+}
+.globe-bg.active{
+    opacity: 1;
+}
+.globe .globe-text-holder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.globe-text-box{
+    position: absolute;
+    bottom: 240px;
+    width: 0;
+    transform: scaleX(0);
+    transition: transform 3s;
+}
+.globe-text-box.active{
+    width: 300px;
+    text-align: center;
+    transform: scaleX(1);
+}
+.globe-text-box h2{
+    font-weight: 800;
+    font-size: 3em;
+}
+
+/* globe in Home Page ended */
+
+
+/* Meet Raily */
+.meet-raily{
+    background-color: black;
+    color: white;
+}
+.meet-raily-text h1{
+    font-size: 6em;
+}
+.play-btn-1{
+    cursor: pointer;
+}
+.meet-raily-phone-wrapper{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.follow{
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+.follow img{
+    width: 450px;
+    height: 450px;
+}
+.meet-raily-content{
+    padding: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: flex;
+    justify-content: space-around;
+}
+.meet-raily-box{
+    width: 250px;
+    height: 100%;
+}
+.meet-raily-box-text{
+    width: 100%;
+    padding-top: 30px;
+}
+.meet-raily-box-text p{
+    font-size: 12px;
+    color: gray;
+}
+
+/* meet rail form */
+
+.meet-rail-form form input{
+    width: 300px;
+    height: 40px;
+    color: white;
+    padding-left: 20px;
+}
+.meet-rail-form form input::placeholder{
+    color: white;
+}
+.meet-rail-form button{
+    background-color: greenyellow;
+}
+
+
+
+/* Raily Ecosystem */
+.raily-ecosystem{
+    background-color: black;
+}
+.raily-ecosystem-title-text h1{
+    font-size: 6em;
+}
+.raily-ecosystem-wrapper{
+    width: 100%;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.raily-ecosystem-wrapper-obit{
+    padding: 30px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.raily-ecosystem-wrapper-img{
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.raily-left-image{
+    height: 90%;
+    object-fit: cover;
+    object-position: -250px 0;
+}
+.raily-right-image{
+    height: 90%;
+    object-fit: cover;
+    object-position: 250px 0;
+}
+.raily-max-width{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.raily-max-width-box{
+    width: 65%;
+    height: 80%;
+}
+.raily-btn{
+    padding: 10px 20px;
+    width: 150px;
+}
+.ar-img{
+    width: 30px;
+}
+.raily-center-box{
+    width: 550px;
+    padding: 20px 0;
+}
+.raily-center-box .left{
+    background-color: lightblue;
+    color: black;
+    font-weight: 600;
+    width: 200px;
+    height: 40px;
+}
+.raily-center-box .right{
+    background-color: purple;
+    color: black;
+    font-weight: 600;
+    width: 200px;
+    height: 40px;
+}
+.raily-center-icon{
+    width: 60px;
+}
+.raily-footer-image-left{
+    width: 20%;
+}
+.raily-footer-image-right{
+    width: 20%;
+}
+.r-footer-box{
+    width: 60%;
+}
+
+
+/* All Features */
+.all-features{
+    background-color: black;
+}
+.all-features-title-text h1{
+    font-size: 6em;
+}
+.all-feature-grid{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.all-feature-grid-2{
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    gap: 10px;
+}
+.min-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.min-grid img{
+    height: 100px;
+}
+.all-feature-video{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+.all-feature-video video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.all-feature-video-text-holder{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-text-box{
+    width: 80%;
+    color: white !important;
+}
+.vtb-text{
+    max-width: 400px;
+    width: 100%;
+}

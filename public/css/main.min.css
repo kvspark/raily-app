@@ -1,0 +1,115 @@
+@media (max-width:990px)
+{
+    /* Navigation button Start */
+    .nav{
+        display: none !important;
+    }
+    .menu-btn{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        background-color: rgb(69, 69, 69);
+        cursor: pointer;
+    }
+    .nav.active{
+        display: block !important;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: rgb(30, 30, 30);
+    }
+    .nav-link{
+        background-color: transparent !important;
+    }
+    .nav-link a{
+        display: block;
+    }
+    .menu-contact{
+        padding: 0 34px !important;
+        padding-bottom: 20px !important;
+    }
+    /* Navigation button end */
+
+    /* Home Page Start */
+    /* .home{
+        height: 1000px;
+    } */
+    /* Home Page End */
+
+    /* Phome Images in  Home Page */
+    .phpone-flex{
+        position: relative;
+        overflow: hidden;
+    }
+    .phone-flex .phone-1{
+        position: absolute;
+        left: 0;
+        object-fit: cover;
+        object-position: -130px 0;
+    }
+    .phone-flex .phone-2{
+        height: 100%;
+        position: absolute;
+        right: 0;
+        left: 70px;
+        width: 250px;
+    }
+    .phone-flex .phone-3{
+        position: absolute;
+        right: 0;
+        object-fit: cover;
+        object-position: 130px 0;
+    }
+    /* Phoone Images in Home Page Ended */
+
+    /* Meet Rail */
+    .meet-raily-text h1{
+        font-size: 2.5em;
+        line-height: 0.5em;
+    }
+
+    /* Meet Raily Content */
+    .meet-raily-content{
+        flex-direction: column !important;
+    }
+    .meet-raily-box{
+        width: 100%;
+    }
+    .meet-raily-phone-wrapper{
+        height: 2300px;
+    }
+
+    /* .raily-ecosystem-title-text  */
+    .raily-ecosystem-title-text h1{
+        font-size: 2em;
+    }
+    .raily-left-image{
+        height: 300px;
+        object-fit: cover;
+        object-position: -100px 50px;
+    }
+    .raily-right-image{
+        position: absolute;
+        right: 0;
+        height: 300px;
+        object-fit: cover;
+        object-position: 100px 50px;
+    }
+    .raily-btn{
+        padding: 5px 10px;
+        width: 90px;
+    }
+    .raily-btn h4{
+        font-size: 0.9em;
+    }
+    .raily-btn img{
+        width: 15px;
+    }
+    .raily-center-box .left{
+        width: 130px;
+    }
+    .raily-center-box .right{
+        width: 130px;
+    }
+}
