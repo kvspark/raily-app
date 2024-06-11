@@ -6,7 +6,7 @@
 
 <h4>Installation</h4>
 <p>To install this project on your PC Locally:</p>
-<p>Clone the repository and cd to the specific folder. Run composer install. Run php artisan key:generate</p>
+<p>Clone the repository and cd to the specific folder. Run composer install. Run php artisan key:generate. Run php artisan serve to start the server</p>
 
 
 
